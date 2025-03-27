@@ -10,8 +10,8 @@ function ListaCompras() {
 
     // 3. Método mostrar
     this.mostrar = function () {
-        for (let i = 0; i < this.productos.length; i++) {
-            console.log(`${i + 1}. ${this.productos[i]}`); // Muestra los productos numerados
+        for (i = 0; i < this.productos.length; i++) {
+            console.log((i+1)+". "+this.productos[i])
         }
     };
 }
